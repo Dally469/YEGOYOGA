@@ -1,0 +1,811 @@
+CRITICAL - 2022-01-15 00:22:22 --> Invalid file: frontend/home.php
+#0 C:\xampp\htdocs\yegoyoga\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/home.p...')
+#1 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(39): view('frontend/home', Array)
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 00:23:31 --> Invalid file: frontend/home.php
+#0 C:\xampp\htdocs\yegoyoga\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/home.p...')
+#1 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(39): view('frontend/home', Array)
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 00:23:33 --> Invalid file: frontend/home.php
+#0 C:\xampp\htdocs\yegoyoga\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/home.p...')
+#1 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(39): view('frontend/home', Array)
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 00:23:50 --> Invalid file: frontend/home.php
+#0 C:\xampp\htdocs\yegoyoga\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/home.p...')
+#1 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(39): view('frontend/home', Array)
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 00:25:00 --> Undefined variable: class
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\home.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(39): view('frontend/home', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-15 00:30:42 --> Unknown column 'company.id' in 'group statement'
+CRITICAL - 2022-01-15 00:30:42 --> Unknown column 'company.id' in 'group statement'
+#0 C:\xampp\htdocs\yegoyoga\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `class`....', 0)
+#1 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `class`....')
+#2 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `class`....')
+#3 C:\xampp\htdocs\yegoyoga\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `class`....', Array, false)
+#4 C:\xampp\htdocs\yegoyoga\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(40): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 00:30:56 --> Undefined variable: instructor
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\home.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 230, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(42): view('frontend/home', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 00:38:44 --> Class 'App\Controllers\InstructorModel' not found
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 00:53:20 --> Undefined variable: instructor
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\about.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/about', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(57): view('frontend/about', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->about()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 00:59:50 --> Undefined variable: instructorMdl
+#0 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->event()
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 01:02:07 --> Undefined variable: instructor
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\class.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/class', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(89): view('frontend/class', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->class()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-15 01:13:23 --> Unknown table 'yegoyoga_db.product'
+CRITICAL - 2022-01-15 01:13:23 --> Unknown table 'yegoyoga_db.product'
+#0 C:\xampp\htdocs\yegoyoga\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\yegoyoga\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\yegoyoga\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yegoyoga\app\Models\ClassModel.php(18): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(104): App\Models\ClassModel->get_single_class('3', 'class.id', true)
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-15 01:13:41 --> Unknown table 'yegoyoga_db.product'
+CRITICAL - 2022-01-15 01:13:41 --> Unknown table 'yegoyoga_db.product'
+#0 C:\xampp\htdocs\yegoyoga\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\yegoyoga\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\yegoyoga\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yegoyoga\app\Models\ClassModel.php(18): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(104): App\Models\ClassModel->get_single_class('3', 'class.id', true)
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-15 01:13:43 --> Unknown table 'yegoyoga_db.product'
+CRITICAL - 2022-01-15 01:13:43 --> Unknown table 'yegoyoga_db.product'
+#0 C:\xampp\htdocs\yegoyoga\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\yegoyoga\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\yegoyoga\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yegoyoga\app\Models\ClassModel.php(18): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(104): App\Models\ClassModel->get_single_class('3', 'class.id', true)
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-15 01:13:56 --> Undefined variable: instructor
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\class.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/class', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(111): view('frontend/class', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:14:21 --> Undefined variable: class
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\class.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/class', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(113): view('frontend/class', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:14:25 --> Undefined variable: class
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\class.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/class', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(113): view('frontend/class', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:14:43 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\class.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/class', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(113): view('frontend/class', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:15:20 --> Undefined variable: instructor
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\class.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/class', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(113): view('frontend/class', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:15:54 --> Undefined variable: eventMdl
+#0 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('3')
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 01:19:00 --> Undefined variable: page
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(116): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:19:15 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(116): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:20:43 --> Undefined variable: related
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(116): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:23:12 --> Undefined variable: page
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(118): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:27:01 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(118): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:27:30 --> Undefined variable: page
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(118): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:28:59 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(120): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:29:00 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(120): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:29:18 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(120): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:31:55 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_class.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(120): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_class('2')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:34:36 --> Undefined variable: schedule
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\schedule.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/schedu...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(141): view('frontend/schedu...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->schedule()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:44:21 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(186): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:44:57 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 01:45:30 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(188): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:45:52 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(188): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:46:12 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(188): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:49:42 --> Call to undefined method App\Models\ClassModel::get_single_instructor
+#0 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(142): CodeIgniter\Model->__call('get_single_inst...', Array)
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_instructor('3')
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-15 01:51:06 --> Unknown column 'instructor.id' in 'where clause'
+CRITICAL - 2022-01-15 01:51:06 --> Unknown column 'instructor.id' in 'where clause'
+#0 C:\xampp\htdocs\yegoyoga\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `intruct...', 0)
+#1 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `intruct...')
+#2 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `intruct...')
+#3 C:\xampp\htdocs\yegoyoga\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `intruct...', Array, false)
+#4 C:\xampp\htdocs\yegoyoga\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yegoyoga\app\Models\InstructorModel.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(135): App\Models\InstructorModel->get_single_instructor('3', 'instructor.id', true)
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_instructor('3')
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-15 01:51:18 --> Undefined variable: page
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_instructor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(140): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_instructor('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:51:56 --> Undefined variable: related
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_instructor.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(141): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_instructor('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:52:25 --> Undefined index: photo
+#0 C:\xampp\htdocs\yegoyoga\app\Views\frontend\single_instructor.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('frontend/single...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(143): view('frontend/single...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_instructor('3')
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-15 01:53:37 --> Unknown table 'yegoyoga_db.intructor'
+CRITICAL - 2022-01-15 01:53:37 --> Unknown table 'yegoyoga_db.intructor'
+#0 C:\xampp\htdocs\yegoyoga\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `intruct...', 0)
+#1 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `intruct...')
+#2 C:\xampp\htdocs\yegoyoga\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `intruct...')
+#3 C:\xampp\htdocs\yegoyoga\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `intruct...', Array, false)
+#4 C:\xampp\htdocs\yegoyoga\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(138): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->single_instructor('3')
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 01:55:22 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(213): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:56:07 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(213): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:58:42 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(213): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 01:58:43 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(213): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:08:43 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(214): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:09:04 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(214): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:11:34 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\yegoyoga\app\Views\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(212): view('login')
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:15:16 --> Undefined property: stdClass::$password
+#0 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 238, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login_proccess()
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 02:17:23 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->login_proccess()
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 02:20:07 --> Undefined variable: num_event
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(290): view('backend/dashboa...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:23:33 --> Undefined variable: num_class
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(292): view('backend/dashboa...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:24:04 --> Undefined variable: num_results
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\dashboard.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(294): view('backend/dashboa...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:24:47 --> Undefined variable: num_client
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(296): view('backend/dashboa...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:28:23 --> Undefined index: azacraft_name
+#0 C:\xampp\htdocs\yegoyoga\app\Views\admin.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('admin', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(300): view('admin', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:32:15 --> Undefined variable: subtitle
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_class.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_cla...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(309): view('backend/add_cla...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_class()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:32:31 --> Undefined variable: class
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_class.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_cla...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(310): view('backend/add_cla...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_class()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:33:19 --> Undefined variable: post
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_class.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_cla...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(311): view('backend/add_cla...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_class()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:36:18 --> Undefined variable: classes
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_class.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_cla...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(317): view('backend/add_cla...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_class()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 02:36:54 --> Undefined variable: class
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_class.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_cla...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(318): view('backend/add_cla...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_class()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 03:00:49 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_class.php(192): date('d-m-Y - H:i:s', '0000-00-00 00:0...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_cla...', Array, true)
+#5 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(322): view('backend/add_cla...', Array)
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_class()
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 03:06:03 --> Call to a member function getExtension() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:06:45 --> Call to a member function getExtension() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:06:49 --> Call to a member function getExtension() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:07:25 --> Call to a member function getSize() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:09:30 --> Call to a member function getExtension() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:18:56 --> Trying to get property 'isVqlid' of non-object
+#0 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 342, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 03:19:24 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:19:27 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:20:32 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:21:11 --> Call to a member function getExtension() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:21:12 --> Call to a member function getExtension() on null
+#0 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#1 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 03:51:17 --> Undefined variable: title
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_class.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_cla...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(379): view('backend/add_cla...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manipulate_class()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 03:53:20 --> Undefined variable: instructor
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_schedule.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_sch...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(346): view('backend/add_sch...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_schedule()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 03:53:35 --> Undefined variable: class
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_schedule.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_sch...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(346): view('backend/add_sch...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_schedule()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-15 03:53:43 --> Undefined variable: schedule
+#0 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_schedule.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_sch...', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(346): view('backend/add_sch...', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_schedule()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-15 04:01:42 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-01-15 04:02:18 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-01-15 04:02:46 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-01-15 04:04:02 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\yegoyoga\app\Views\backend\add_schedule.php(165): date('d-m-Y - H:i:s', '2022-01-15 04:0...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_sch...', Array, true)
+#5 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(346): view('backend/add_sch...', Array)
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->add_schedule()
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 04:05:41 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\yegoyoga\app\Views\backend\manage_schedule.php(78): date('d-m-Y - H:i:s', '2022-01-15 04:0...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('backend/manage_...', Array, true)
+#5 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(370): view('backend/manage_...', Array)
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manage_schedule()
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-15 06:21:41 --> Undefined index: user_name
+#0 C:\xampp\htdocs\yegoyoga\app\Views\admin.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\yegoyoga\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yegoyoga\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\yegoyoga\system\Common.php(1089): CodeIgniter\View\View->render('admin', Array, true)
+#4 C:\xampp\htdocs\yegoyoga\app\Controllers\Home.php(371): view('admin', Array)
+#5 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(825): App\Controllers\Home->manage_schedule()
+#6 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yegoyoga\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yegoyoga\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
